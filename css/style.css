@@ -1,0 +1,12 @@
+body {
+    background-image: url(../assets/darkworld.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
+
+.img-small {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px: /* Adjust the value to control the roundnees of the image
+}
