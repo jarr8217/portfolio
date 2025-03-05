@@ -5,10 +5,18 @@ body {
     background-attachment: fixed;  
 }
 
-.img-small {
+.img-fluid {
     max-width: 100%;
     height: auto;
     border-radius: 15px; /* Adjust the value to control the roundnees of the image */
+}
+
+@media (max-width: 768px) {
+    .img-fluid {
+       max-width: 80%;
+       margin: 0 auto;
+       display: block;
+    }
 }
 
 .table-background-opacity {
@@ -33,4 +41,13 @@ form {
     height: 200px;
     margin: 0 auto;
     
+}
+
+a {
+    color: rgb(128, 24, 24)
+}
+
+.card-background-opacity {
+    background-color: rgba(211, 177, 177, 0.5);
+    width: 75%;
 }
