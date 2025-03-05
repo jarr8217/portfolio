@@ -48,6 +48,14 @@ a {
 }
 
 .card-background-opacity {
-    background-color: rgba(211, 177, 177, 0.5);
-    width: 75%;
+    background-color: rgba(203, 147, 147, 0.5);
+    width: 100%;
+}
+
+.card-title {
+    color: rgb(1, 0, 0);
+}
+
+.card-text {
+    color: rgb(1, 0, 0);
 }
