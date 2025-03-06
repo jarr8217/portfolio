@@ -5,6 +5,11 @@ body {
     background-attachment: fixed;  
 }
 
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -49,7 +54,7 @@ a {
 
 .card-background-opacity {
     background-color: rgba(203, 147, 147, 0.5);
-    width: 100%;
+    width: 80%;
 }
 
 .card-title {
@@ -59,3 +64,4 @@ a {
 .card-text {
     color: rgb(1, 0, 0);
 }
+
