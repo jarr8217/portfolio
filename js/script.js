@@ -14,7 +14,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
 });
 
 // Test the email validation function
-console.log(validateEmail("test@example.com")); // true
+ console.log(validateEmail("test@example.com")); // true
 console.log(validateEmail("example.com")); // false
 console.log(validateEmail("test@example")); // false
 console.log(validateEmail("testexample.com")); // false
@@ -86,5 +86,6 @@ document.querySelectorAll('.project-card').forEach(card => {
         const description = this.querySelector('.card-text').textContent;
         const link = this.querySelector('.btn').getAttribute('href');
         showModal(title, description, link);
+    }
+    );
     });
-});
