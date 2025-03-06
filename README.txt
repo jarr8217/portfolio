@@ -16,5 +16,5 @@ integrated into any form submission process where email validation is required.
 
 Function smoothScroll enables smooth scrolling to different sections of the page when navigation links are clicked. 
 This functions can help improve the user experience on the website by adding form validation, dark mode, smooth scrolling, dynamic
-project display, and modal popup
-
+project display, and modal popup. Adding a array that stores a list of projects and their details. This helps tracking of the 
+projects added in the future.
