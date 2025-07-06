@@ -94,7 +94,7 @@ my-portfolio/
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone
 cd my-portfolio
 ```
 
@@ -103,12 +103,17 @@ cd my-portfolio
 npm install
 ```
 
-3. Start the development server:
+3. **Install specific Tailwind CSS version** (if you want to match this project exactly):
+```bash
+npm install -D tailwindcss@3.4.17 postcss@8.5.6 autoprefixer@10.4.21
+```
+
+4. Start the development server:
 ```bash
 npm run dev
 ```
 
-4. Open your browser and navigate to `http://localhost:5173`
+5. Open your browser and navigate to `http://localhost:5173`
 
 ## Available Scripts
 
